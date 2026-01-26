@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Ingénieure logiciel bilingue et professionnelle cybersécurité/cloud. Expériences web sécurisées et accessibles, projets cloud DevSecOps." />
+  <meta property="og:title" content="Estelle Tientcheu - Portfolio" />
+  <meta property="og:description" content="Expériences web sécurisées et accessibles · Cybersécurité · Cloud DevSecOps" />
+  <meta property="og:image" content="images/cyber.jpg" />
+
+  <title>Estelle Tientcheu - Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet" />
+
+  <!-- Same CSS file -->
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header" role="banner">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <h1 class="logo-name">
+            <span class="initial">E</span>stelle
+            <span class="initial">T</span>ientcheu
+          </h1>
+        </div>
+
+        <!-- Mobile menu toggle -->
+        <button class="menu-toggle" aria-label="Basculer la navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#home">
+                <i class="fas fa-home"></i>
+                <span>Accueil</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#about">
+                <i class="fas fa-user"></i>
+                <span>À propos</span>
+              </a>
+            </li>
+
+            <!-- Professional Group -->
+            <li class="nav-group">
+              <a href="#experience">
+                <i class="fas fa-briefcase"></i>
+                <span>Parcours</span>
+                <i class="fas fa-chevron-down dropdown-arrow"></i>
+              </a>
+              <ul class="dropdown">
+                <li>
+                  <a href="#experience">
+                    <i class="fas fa-suitcase"></i>
+                    Expérience
+                  </a>
+                </li>
+                <li>
+                  <a href="#education">
+                    <i class="fas fa-graduation-cap"></i>
+                    Formation
+                  </a>
+                </li>
+                <li>
+                  <a href="#certifications">
+                    <i class="fas fa-certificate"></i>
+                    Certifications
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Skills Group -->
+            <li class="nav-group">
+              <a href="#skills">
+                <i class="fas fa-code"></i>
+                <span>Portfolio</span>
+                <i class="fas fa-chevron-down dropdown-arrow"></i>
+              </a>
+              <ul class="dropdown">
+                <li>
+                  <a href="#skills">
+                    <i class="fas fa-cogs"></i>
+                    Compétences techniques
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects">
+                    <i class="fas fa-project-diagram"></i>
+                    Projets
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+
+            <!-- Language -->
+            <li class="nav-group lang-nav">
+              <a href="fr.html" class="lang-trigger" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-globe"></i>
+                <span>FR</span>
+                <i class="fas fa-chevron-down dropdown-arrow"></i>
+              </a>
+
+              <ul class="dropdown" aria-label="Menu de langue">
+                <li>
+                  <a href="index.html" lang="en" hreflang="en">
+                    <i class="fas fa-language"></i>
+                    English (ENG)
+                  </a>
+                </li>
+                <li>
+                  <a href="fr.html" lang="fr" hreflang="fr" aria-current="page">
+                    <i class="fas fa-check"></i>
+                    Français (FR)
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p>Bonjour 👋 ! Je suis</p>
+          <h2>Estelle</h2>
+          <p class="subtitle">Analyste Cybersécurité · Cloud DevSecOps · Développeuse logiciel</p>
+          <p class="description">
+            J’aide les organisations à sécuriser leurs données et leurs systèmes, à enquêter sur les menaces,
+            et à concevoir, développer et exploiter des solutions logicielles et de bases de données prêtes pour le cloud,
+            avec la sécurité intégrée dès la conception.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            <a href="Estelle-Tientcheu_resume_IT_Cyber.pdf" download class="btn btn-download">
+              <i class="fas fa-download"></i> Télécharger le CV
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/me.jpg" alt="Estelle Tientcheu - Développeuse / Programmeuse" class="profile-photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-user"></i> À propos de moi</h2>
+
+      <div class="about-content">
+        <p class="about-lead">
+          Je suis une ingénieure logiciel bilingue (anglais/français) et une professionnelle en cybersécurité/cloud
+          avec plus de 5 ans d’expérience pratique en informatique. J’aide les organisations à sécuriser leurs systèmes,
+          à enquêter sur les menaces et à construire des logiciels fiables avec une sécurité intégrée dès la conception.
+        </p>
+
+        <p>
+          Mes centres d’intérêt se situent à l’intersection du développement logiciel, de la sécurité et de l’automatisation cloud.
+          J’aime travailler sur l’ensemble du cycle de vie :
+          planification des fonctionnalités, implémentation d’un code propre, durcissement des systèmes face aux menaces courantes,
+          et déploiement dans le cloud de manière fiable et reproductible.
+        </p>
+
+        <div class="about-services">
+          <h3 class="about-subtitle">Ce que je peux faire pour vous aider</h3>
+
+          <div class="service-grid">
+            <div class="service-card">
+              <h4><i class="fas fa-shield-alt"></i> SOC & triage d’incidents</h4>
+              <p>Surveiller les alertes, investiguer les activités suspectes, valider les incidents et documenter clairement les résultats.</p>
+            </div>
+
+            <div class="service-card">
+              <h4><i class="fas fa-search"></i> Chasse aux menaces</h4>
+              <p>Chasse proactive à partir des logs et des indicateurs pour révéler des menaces cachées et améliorer les détections.</p>
+            </div>
+
+            <div class="service-card">
+              <h4><i class="fas fa-bug"></i> Évaluation des vulnérabilités</h4>
+              <p>Scanner, prioriser et soutenir la planification de remédiation avec le CVSS et la criticité des actifs.</p>
+            </div>
+
+            <div class="service-card">
+              <h4><i class="fas fa-balance-scale"></i> Support risques & conformité</h4>
+              <p>Aider à aligner les contrôles sur des référentiels (NIST/ISO) et soutenir la documentation de sécurité.</p>
+            </div>
+
+            <div class="service-card">
+              <h4><i class="fas fa-laptop-code"></i> Développement logiciel sécurisé</h4>
+              <p>Créer des applications web avec de bonnes pratiques de codage sécurisé, validation et “security-by-design”.</p>
+            </div>
+
+            <div class="service-card">
+              <h4><i class="fas fa-lock"></i> Cryptographie</h4>
+              <p>Appliquer les principes de sécurité et de cryptographie pour garantir confidentialité, intégrité et authentification sûre.</p>
+            </div>
+
+            <div class="service-card">
+              <h4><i class="fas fa-headset"></i> Support IT / Help Desk</h4>
+              <p>Dépanner les systèmes, assister les utilisateurs, gérer les comptes et améliorer efficacement les processus IT.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-target">
+          <p>
+            <strong>Postes ciblés :</strong> Analyste SOC · Threat Hunter · Analyste Risques · Analyste Cybersécurité · Cloud/DevSecOps · Support IT · Cryptographie
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title">💼 Expérience</h2>
+
+      <div class="experience-timeline">
+        <!-- Experience Item 1 -->
+        <div class="experience-item">
+          <div class="experience-flag left">
+            <div class="experience-position" data-details="experience1">
+              <h3>Représentante du service client bilingue</h3>
+              <p>MSI-Corp, Ottawa, Canada</p>
+              <span class="experience-date">Décembre 2022 - Janvier 2023</span>
+            </div>
+          </div>
+
+          <div class="experience-details" id="experience1">
+            <h3>Représentante du service client bilingue - MSI-Corp, Ottawa, Canada</h3>
+            <ul>
+              <li>Résolution de demandes clients complexes en anglais et en français, en maintenant un taux de satisfaction de 98 %</li>
+              <li>Amélioration de la qualité des données CRM en mettant en place des champs obligatoires et en créant une base de connaissances, réduisant le temps de réponse moyen de 20 %</li>
+              <li>Identification de problèmes techniques récurrents (ex. connectivité, erreurs de configuration) et collaboration avec l’IT pour créer un script de dépannage, réduisant les appels répétés de 25 %</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 2 -->
+        <div class="experience-item">
+          <div class="experience-flag right">
+            <div class="experience-position" data-details="experience2">
+              <h3>Formatrice en électronique</h3>
+              <p>CETIC de Djaglassi, Bertoua, Cameroun</p>
+              <span class="experience-date">Avril 2017 - Septembre 2022</span>
+            </div>
+          </div>
+
+          <div class="experience-details" id="experience2">
+            <h3>Formatrice en électronique - CETIC de Djaglassi, Bertoua, Cameroun</h3>
+            <ul>
+              <li>Conception et animation de plans d’apprentissage adaptés pour plus de 30 étudiants, avec technologies d’apprentissage adaptatif et feedback en temps réel, augmentant la performance globale de 15 %</li>
+              <li>Développement et encadrement de laboratoires pratiques en électronique analogique et numérique, axés sur le dépannage et la lecture de schémas</li>
+              <li>Formation à la manipulation sécuritaire des équipements électroniques et aux pratiques fondamentales de cybersécurité pour les systèmes matériels</li>
+              <li>Création d’un environnement d’apprentissage collaboratif favorisant la résolution de problèmes techniques et l’esprit analytique</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 3 -->
+        <div class="experience-item">
+          <div class="experience-flag left">
+            <div class="experience-position" data-details="experience3">
+              <h3>Spécialiste support Help Desk</h3>
+              <p>CAMTEL Cameroun, Garoua, Cameroun</p>
+              <span class="experience-date">Novembre 2010 - Octobre 2013</span>
+            </div>
+          </div>
+
+          <div class="experience-details" id="experience3">
+            <h3>Spécialiste support Help Desk - CAMTEL Cameroun, Garoua, Cameroun</h3>
+            <ul>
+              <li>Point de contact principal du support IT, résolution de plus de 30 tickets par semaine avec 98 % de résolution au premier contact</li>
+              <li>Gestion complète du cycle de vie des comptes (onboarding/offboarding) pour plus de 30 employés via Active Directory, y compris la gestion des GPO, assurant 100 % de conformité</li>
+              <li>Réduction des escalades vers le support niveau 2 de 15 % grâce à une base de connaissances sur les incidents réseau, matériel et logiciels</li>
+              <li>Support et dépannage de Microsoft 365 (Outlook, Teams, SharePoint), réduisant l’indisponibilité des utilisateurs</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 4 -->
+        <div class="experience-item">
+          <div class="experience-flag right">
+            <div class="experience-position" data-details="experience4">
+              <h3>Agent de support technique</h3>
+              <p>IUT Cyber Cafe, Douala, Cameroun</p>
+              <span class="experience-date">Septembre 2009 - Octobre 2010</span>
+            </div>
+          </div>
+
+          <div class="experience-details" id="experience4">
+            <h3>Agent de support technique - IUT Cyber Cafe, Douala, Cameroun</h3>
+            <ul>
+              <li>Installation, configuration et maintenance de plus de 50 postes et équipements réseau, réduisant les temps d’arrêt de 20 %</li>
+              <li>Formation individuelle des utilisateurs aux bonnes pratiques de cybersécurité, réduisant les incidents de malwares</li>
+              <li>Mise en place de contrôles d’accès, incluant des ACL firewall, afin d’améliorer la protection des données</li>
+              <li>Assistance aux mises à niveau systèmes et correctifs, en minimisant l’impact sur les utilisateurs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section-title">🎓 Formation</h2>
+
+      <div class="education-timeline">
+        <!-- Cloud Development -->
+        <div class="education-item">
+          <div class="education-content">
+            <div class="education-image">
+              <img src="images/cloud.jpg" alt="Développement et opérations cloud" class="education-img" />
+            </div>
+            <div class="education-text">
+              <h3>Certificat d’études supérieures – Développement et opérations cloud</h3>
+              <div class="education-details">
+                <p class="institution"><i class="fas fa-university"></i> Algonquin College, Ottawa, ON</p>
+                <span class="date">Mai 2025 - Décembre 2025</span>
+                <ul class="education-highlights">
+                  <li>Infrastructure cloud et stratégies de déploiement</li>
+                  <li>Conteneurisation et orchestration</li>
+                  <li>Pratiques DevOps et automatisation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cyber Security Analysis -->
+        <div class="education-item">
+          <div class="education-content">
+            <div class="education-image">
+              <img src="images/cyber.jpg" alt="Analyse en cybersécurité" class="education-img" />
+            </div>
+            <div class="education-text">
+              <h3>Certificat d’études supérieures – Analyse en cybersécurité</h3>
+              <div class="education-details">
+                <p class="institution"><i class="fas fa-university"></i> Algonquin College, Ottawa, ON</p>
+                <span class="date">Septembre 2024 - Avril 2025</span>
+                <ul class="education-highlights">
+                  <li>Sécurité réseau et évaluation des vulnérabilités</li>
+                  <li>Évaluation des vulnérabilités</li>
+                  <li>Renseignement & analyse des menaces</li>
+                  <li>Réponse aux incidents</li>
+                  <li>Gouvernance & conformité sécurité</li>
+                  <li>Piratage éthique & tests d’intrusion</li>
+                  <li>Cryptographie appliquée</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Computer Programmer -->
+        <div class="education-item">
+          <div class="education-content">
+            <div class="education-image">
+              <img src="images/programming.jpg" alt="Programmation informatique" class="education-img" />
+            </div>
+            <div class="education-text">
+              <h3>Diplôme – Programmeur informatique</h3>
+              <div class="education-details">
+                <p class="institution"><i class="fas fa-university"></i> Algonquin College, Ottawa, ON</p>
+                <span class="date">Mars 2023 - Juin 2024</span>
+                <ul class="education-highlights">
+                  <li>Méthodologies de développement logiciel</li>
+                  <li>Conception et gestion de bases de données</li>
+                  <li>Développement web et langages de programmation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Electronics Engineering -->
+        <div class="education-item">
+          <div class="education-content">
+            <div class="education-image">
+              <img src="images/electronics.jpg" alt="Génie électronique et électrique" class="education-img" />
+            </div>
+            <div class="education-text">
+              <h3>Licence en électronique et génie électrique</h3>
+              <div class="education-details">
+                <p class="institution"><i class="fas fa-university"></i> Université de Bamenda, Cameroun</p>
+                <span class="date">Novembre 2013 - Septembre 2016</span>
+                <ul class="education-highlights">
+                  <li>Conception et analyse de circuits électroniques</li>
+                  <li>Systèmes de puissance et ingénierie du contrôle</li>
+                  <li>Traitement du signal et télécommunications</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-layer-group"></i> Compétences techniques / Outils</h2>
+
+      <!-- Role Filter Buttons -->
+      <div class="role-filters">
+        <button class="role-btn active" data-role="all">Toutes les compétences</button>
+        <button class="role-btn" data-role="cybersecurity">Analyste cybersécurité</button>
+        <button class="role-btn" data-role="developer">Développeuse logiciel</button>
+        <button class="role-btn" data-role="cloud">Ingénierie cloud</button>
+        <button class="role-btn" data-role="it">Spécialiste IT</button>
+      </div>
+
+      <!-- Skills Dashboard -->
+      <div class="skills-dashboard">
+        <!-- Cybersecurity Focus -->
+        <div class="skill-category" data-role="cybersecurity">
+          <div class="category-header">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Sécurité & Défense</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h4>Outils de sécurité</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced">Nessus</span>
+                <span class="skill-tag advanced">Wireshark</span>
+                <span class="skill-tag intermediate">Splunk</span>
+                <span class="skill-tag advanced">Nmap</span>
+                <span class="skill-tag intermediate">Metasploit</span>
+                <span class="skill-tag intermediate">Burp Suite</span>
+                <span class="skill-tag beginner">Snort IDS/IPS</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Référentiels & normes</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced">NIST CSF</span>
+                <span class="skill-tag intermediate">ISO 27001</span>
+                <span class="skill-tag advanced">OWASP Top 10</span>
+                <span class="skill-tag intermediate">MITRE ATT&CK</span>
+                <span class="skill-tag intermediate">STRIDE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Development Focus -->
+        <div class="skill-category" data-role="developer">
+          <div class="category-header">
+            <i class="fas fa-code"></i>
+            <h3>Développement & Programmation</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h4>Langages</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced">Python</span>
+                <span class="skill-tag intermediate">C++</span>
+                <span class="skill-tag intermediate">Java</span>
+                <span class="skill-tag advanced">SQL</span>
+                <span class="skill-tag advanced">Shell/Bash</span>
+                <span class="skill-tag intermediate">PowerShell</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Développement web</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced">HTML</span>
+                <span class="skill-tag advanced">CSS</span>
+                <span class="skill-tag advanced">JavaScript</span>
+                <span class="skill-tag intermediate">PHP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cloud & Infrastructure -->
+        <div class="skill-category" data-role="cloud">
+          <div class="category-header">
+            <i class="fas fa-cloud"></i>
+            <h3>Cloud & Infrastructure</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h4>Plateformes cloud</h4>
+              <div class="skill-tags">
+                <span class="skill-tag intermediate">AWS</span>
+                <span class="skill-tag intermediate">Azure</span>
+                <span class="skill-tag beginner">GCP</span>
+                <span class="skill-tag intermediate">VMware</span>
+                <span class="skill-tag beginner">Kubernetes</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Systèmes d’exploitation</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced">Linux (Ubuntu, CentOS, Kali)</span>
+                <span class="skill-tag advanced">Windows 7-11</span>
+                <span class="skill-tag intermediate">Windows Server</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- IT & Networking -->
+        <div class="skill-category" data-role="it">
+          <div class="category-header">
+            <i class="fas fa-network-wired"></i>
+            <h3>IT & Réseaux</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h4>Réseaux</h4>
+              <div class="skill-tags">
+                <span class="skill-tag intermediate">Palo Alto NGFW</span>
+                <span class="skill-tag intermediate">pfSense</span>
+                <span class="skill-tag advanced">TCP/IP</span>
+                <span class="skill-tag advanced">Protocoles réseau</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Administration systèmes</h4>
+              <div class="skill-tags">
+                <span class="skill-tag intermediate">Active Directory</span>
+                <span class="skill-tag intermediate">Group Policy</span>
+                <span class="skill-tag advanced">Dépannage systèmes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Databases & Tools -->
+        <div class="skill-category" data-role="all">
+          <div class="category-header">
+            <i class="fas fa-database"></i>
+            <h3>Bases de données & Outils</h3>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h4>Systèmes de bases de données</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced">MySQL</span>
+                <span class="skill-tag intermediate">Microsoft SQL Server</span>
+                <span class="skill-tag beginner">Oracle</span>
+                <span class="skill-tag beginner">MongoDB</span>
+                <span class="skill-tag beginner">Neo4j</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h4>Productivité & collaboration</h4>
+              <div class="skill-tags">
+                <span class="skill-tag advanced">Microsoft 365</span>
+                <span class="skill-tag intermediate">Jira</span>
+                <span class="skill-tag advanced">GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">🚀 Projets</h2>
+      <p class="section-subtitle">
+        Une sélection de réalisations en développement logiciel, cybersécurité et cloud DevSecOps.
+      </p>
+
+      <!-- CATEGORY FILTERS -->
+      <div class="project-filters">
+        <button class="project-filter-btn active" data-category="all">Tous</button>
+        <button class="project-filter-btn" data-category="cybersecurity">Cybersécurité</button>
+        <button class="project-filter-btn" data-category="development">Développement logiciel</button>
+        <button class="project-filter-btn" data-category="cloud">Cloud</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- 1 -->
+        <div class="project-card from-bottom" data-category="development">
+          <img src="images/project_images/web.jpg" alt="Site portfolio accessible" />
+          <div class="project-info">
+            <h3>Site portfolio accessible</h3>
+            <p>Portfolio responsive avec HTML sémantique, navigation clavier et états de focus alignés WCAG.</p>
+            <span class="project-tools">HTML · CSS · JavaScript · GitHub Pages</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_PORTFOLIO_REPO" target="_blank" class="github-link" aria-label="Voir le projet portfolio sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="project-card from-left" data-category="development cybersecurity">
+          <img src="images/project_images/web.jpg" alt="Démo application web de connexion sécurisée" />
+          <div class="project-info">
+            <h3>Démo de connexion sécurisée</h3>
+            <p>Flux de connexion web avec validation des entrées, limitation de débit et UX orientée sécurité.</p>
+            <span class="project-tools">HTML · CSS · JavaScript · Node.js</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_SECURE_LOGIN_REPO" target="_blank" class="github-link" aria-label="Voir le projet de connexion sécurisée sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="project-card from-right" data-category="development cybersecurity">
+          <img src="images/project_images/mobile_development.jpg" alt="Application mobile sécurisée de suivi d’habitudes" />
+          <div class="project-info">
+            <h3>Application de suivi d’habitudes sécurisée</h3>
+            <p>Application mobile multiplateforme avec stockage local sécurisé, verrouillage PIN et UX respectueuse de la vie privée.</p>
+            <span class="project-tools">React Native · TypeScript · Expo</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_MOBILE_TRACKER_REPO" target="_blank" class="github-link" aria-label="Voir l’application mobile sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="project-card from-top" data-category="cybersecurity">
+          <img src="images/project_images/penetration.jpg" alt="Laboratoire de tests d’intrusion sur application web" />
+          <div class="project-info">
+            <h3>Lab de pentest web</h3>
+            <p>Application volontairement vulnérable pour pratiquer les attaques OWASP Top 10 et appliquer des correctifs de codage sécurisé.</p>
+            <span class="project-tools">DVWA · Burp Suite · Kali Linux · OWASP ZAP</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_PENTEST_LAB_REPO" target="_blank" class="github-link" aria-label="Voir le lab pentest sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="project-card project-more from-bottom" data-category="cybersecurity">
+          <img src="images/project_images/vulnerability.jpg" alt="Tableau de bord d’évaluation des vulnérabilités" />
+          <div class="project-info">
+            <h3>Tableau de bord d’évaluation des vulnérabilités</h3>
+            <p>Agrège les résultats de scans et priorise la remédiation selon la criticité des actifs et le score CVSS.</p>
+            <span class="project-tools">Python · Flask · Nessus API · PostgreSQL</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_VULN_DASHBOARD_REPO" target="_blank" class="github-link" aria-label="Voir le dashboard vulnérabilités sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="project-card project-more from-left" data-category="cybersecurity">
+          <img src="images/project_images/threat.jpg" alt="Lab de scan réseau et threat hunting" />
+          <div class="project-info">
+            <h3>Lab de scan réseau & Threat Hunting</h3>
+            <p>Réseau d’entreprise simulé pour scans Nmap, alertes Snort et chasse aux menaces via Splunk.</p>
+            <span class="project-tools">Nmap · Snort · Splunk · pfSense</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_THREAT_HUNTING_REPO" target="_blank" class="github-link" aria-label="Voir le projet threat hunting sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="project-card project-more from-right" data-category="cloud">
+          <img src="images/project_images/dev.jpg" alt="Pipeline DevSecOps AWS" />
+          <div class="project-info">
+            <h3>Pipeline DevSecOps AWS</h3>
+            <p>Pipeline CI/CD qui build, scanne et déploie une application conteneurisée dans un VPC AWS sécurisé.</p>
+            <span class="project-tools">AWS (ECR, ECS, VPC) · GitHub Actions · Docker · Trivy</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_AWS_DEVSECOPS_REPO" target="_blank" class="github-link" aria-label="Voir le projet AWS DevSecOps sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="project-card project-more from-top" data-category="cloud">
+          <img src="images/project_images/cloud_security.jpg" alt="Surveillance de sécurité cloud Azure" />
+          <div class="project-info">
+            <h3>Surveillance de sécurité Azure</h3>
+            <p>Ingestion de logs et règles de détection dans Microsoft Sentinel pour des attaques d’authentification courantes.</p>
+            <span class="project-tools">Azure Sentinel · Log Analytics · KQL</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_AZURE_SECURITY_REPO" target="_blank" class="github-link" aria-label="Voir le projet sécurité Azure sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="project-card project-more from-left" data-category="cloud">
+          <img src="images/project_images/dev.jpg" alt="Déploiement et opérations multi-cloud" />
+          <div class="project-info">
+            <h3>Déploiement & Ops multi-cloud</h3>
+            <p>Déploie un microservice sur AWS et Azure avec des patterns IaC partagés et de la supervision.</p>
+            <span class="project-tools">Terraform · AWS · Azure · GitHub Actions</span>
+            <a href="https://github.com/jeanine-estelle/YOUR_MULTICLOUD_REPO" target="_blank" class="github-link" aria-label="Voir le projet multi-cloud sur GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Show More Button -->
+      <div class="show-more-container">
+        <button id="showMoreProjects" class="btn btn-outline show-more-btn">
+          Afficher plus de projets <i class="fas fa-chevron-down"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <h2 class="section-title">🏆 Certifications</h2>
+      <p class="section-subtitle">Certifications reconnues validant mes compétences en sécurité, cloud et IT.</p>
+
+      <div class="certifications-grid">
+        <div class="certification-card" data-category="security">
+          <span class="badge completed">Obtenue <span class="star-badge">★</span></span>
+          <div class="cert-icon-wrapper">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>CompTIA Security+</h3>
+          <p>Sécurité réseau, détection des menaces et réponse aux incidents</p>
+          <span class="cert-date">Janvier 2026</span>
+        </div>
+
+        <div class="certification-card" data-category="cloud">
+          <span class="badge planned">Prévue</span>
+          <div class="cert-icon-wrapper">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h3>AWS Cloud Practitioner</h3>
+          <p>Fondamentaux du cloud</p>
+          <span class="cert-date">Prévu en 2026</span>
+        </div>
+
+        <div class="certification-card" data-category="cloud">
+          <span class="badge planned">Prévue</span>
+          <div class="cert-icon-wrapper">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Microsoft Azure Fundamentals</h3>
+          <p>Services cloud</p>
+          <span class="cert-date">Prévu en 2026</span>
+        </div>
+
+        <div class="certification-card" data-category="security">
+          <span class="badge planned">En cours</span>
+          <div class="cert-icon-wrapper">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Cisco CCNA</h3>
+          <p>Fondamentaux réseaux, routage & commutation, sécurité réseau</p>
+          <span class="cert-date">Prévu en 2026</span>
+        </div>
+
+        <div class="certification-card" data-category="itsm">
+          <span class="badge planned">Prévue</span>
+          <div class="cert-icon-wrapper">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3>ITIL Foundation</h3>
+          <p>Gestion des services IT</p>
+          <span class="cert-date">Prévu en 2026</span>
+        </div>
+
+        <div class="certification-card" data-category="security">
+          <span class="badge completed">Objectif</span>
+          <div class="cert-icon-wrapper">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3>CISSP</h3>
+          <p>Leadership en sécurité</p>
+          <span class="cert-date">Objectif 2027</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-envelope"></i> Me contacter</h2>
+      <p class="section-subtitle">
+        Intéressé(e) pour collaborer ou vous avez un poste correspondant à mes compétences ? Je serais ravie d’échanger !
+      </p>
+
+      <div class="contact-content">
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Téléphone</h3>
+              <a href="tel:+16139139967">+1 (613) 913-9967</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>E-mail</h3>
+              <a href="mailto:estelletientcheu91@gmail.com">estelletientcheu91@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Localisation</h3>
+              <p>Ottawa, ON, Canada</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Délai de réponse</h3>
+              <p>Sous 24 heures</p>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <h4>Me retrouver</h4>
+            <div class="social-icons">
+              <a href="mailto:estelletientcheu91@gmail.com" class="social-link" aria-label="E-mail">
+                <i class="fas fa-envelope"></i>
+                <span>E-mail</span>
+              </a>
+              <a href="https://www.linkedin.com/in/estelle-tientcheu" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/jeanine-estelle" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form id="contactForm" action="https://formspree.io/f/mvgyygpp" method="POST">
+            <input type="hidden" name="_subject" value="Nouveau message depuis le site portfolio" />
+
+            <div class="form-group">
+              <label for="name">Nom complet *</label>
+              <input type="text" id="name" name="name" required maxlength="50" placeholder="Votre nom complet" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse e-mail *</label>
+              <input type="email" id="email" name="email" required maxlength="100" placeholder="votre.email@exemple.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Objet *</label>
+              <input type="text" id="subject" name="subject" required maxlength="100" placeholder="De quoi s’agit-il ?" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="4" required maxlength="500" placeholder="Parlez-moi de votre projet ou opportunité..."></textarea>
+              <div class="char-counter">
+                <span id="charCount">0</span>/500 caractères
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="submitBtn">
+              <span class="btn-text">Envoyer</span>
+              <div class="btn-loading">
+                <i class="fas fa-spinner fa-spin"></i>
+              </div>
+            </button>
+
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Estelle Tientcheu. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

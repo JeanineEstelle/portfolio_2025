@@ -369,6 +369,46 @@ ul {
     padding: 0.5rem;
 }
 
+
+/* Language */
+
+/* Language switch inside nav */
+.nav .lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-link {
+  color: white;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.35);
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.lang-link:hover,
+.lang-link:focus {
+  background: rgba(52, 152, 219, 0.25);
+  border-color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.lang-link.active {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.lang-sep {
+  color: rgba(255,255,255,0.6);
+  font-weight: 700;
+}
+
+
+
 /* Reduce spacing between 1200px and 900px */
 @media (max-width: 1200px) {
     .nav ul {
